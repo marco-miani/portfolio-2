@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marco Miani Dev</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/8b8ab476a6.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body>
+    <!-- Header section -->
+    <header id="home" class="text-gray-600 body-font py-0">
+      <div
+        class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center"
+      >
+        <a
+          class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+        >
+          <span class="ml-3 text-3xl font-extrabold"
+            >MARCO<span class="text-green-800"> MIANI</span></span
+          >
+        </a>
+        <nav
+          class="md:ml-auto flex flex-wrap items-center text-base justify-center hidden w-full md:block md:w-auto"
+          id="navbar-default"
+        >
+          <a
+            class="mr-10 hover:text-gray-900 hover:underline underline-offset-4"
+            href="#"
+            >Home</a
+          >
+          <a
+            class="mr-10 hover:text-gray-900 hover:underline underline-offset-4"
+            href="#about"
+            >About</a
+          >
+          <a
+            class="mr-10 hover:text-gray-900 hover:underline underline-offset-4"
+            href="#skills"
+            >Skills</a
+          >
+          <a
+            class="mr-10 hover:text-gray-900 hover:underline underline-offset-4"
+            href="#projects"
+            >Projects</a
+          >
+          <a
+            class="mr-10 hover:text-gray-900 hover:underline underline-offset-4"
+            href="#contact"
+            >Contact</a
+          >
+          <a class="mr-10 hover:text-gray-900" href="#"
+            ><i class="fa-solid fa-moon"></i
+          ></a>
+        </nav>
+        <button
+          data-collapse-toggle="navbar-default"
+          type="button"
+          class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          aria-controls="navbar-default"
+          aria-expanded="false"
+        >
+          <span class="sr-only">Open main menu</span>
+          <svg
+            class="w-6 h-6"
+            aria-hidden="true"
+            fill="currentColor"
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            ></path>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="text-gray-600 body-font py-0">
+      <div
+        class="container mx-auto flex px-5 py-14 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Hello! My name is Marco Miani,
+            <br class="hidden lg:inline-block" />a Software Engineer from Brazil
+            🇧🇷
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Welcome to my technical portfolio, where you'll find my best
+            projects, professional information, and access to my social media.
+            Feel free to reach out if you have any questions about my projects
+            or myself. Thank you for visiting!
+          </p>
+          <div class="flex justify-center mt-4">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              Download CV
+            </button>
+          </div>
+          <div class="flex justify-center mt-16">
+            <a href="###"
+              ><i
+                class="fa-brands fa-github w-10 text-4xl text-white bg-gray-600 border-0 py-2 px-12 pl-4 pr-12 mr-4 focus:outline-none hover:bg-green-600 rounded-lg"
+              ></i
+            ></a>
+            <a href="###"
+              ><i
+                class="fa-brands fa-linkedin w-10 text-4xl text-white bg-gray-600 border-0 py-2 px-12 pl-4 pr-12 mr-4 focus:outline-none hover:bg-green-600 rounded-lg"
+              ></i
+            ></a>
+            <a href="###"
+            ><i
+              class="fa-brands fa-facebook w-10 text-4xl text-white bg-gray-600 border-0 py-2 px-12 pl-4 pr-12 mr-4 focus:outline-none hover:bg-green-600 rounded-lg"
+            ></i
+          ></a>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="miani picture"
+            src="./images/marco.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="xl:w-2/3 lg:w-3/4 w-full mx-auto text-center">
+          <svg
+            id="about"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="currentColor"
+            class="inline-block w-8 h-8 text-gray-400 mb-8"
+            viewBox="0 0 975.036 975.036"
+          >
+            <path
+              d="M925.036 57.197h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.399 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l36 76c11.6 24.399 40.3 35.1 65.1 24.399 66.2-28.6 122.101-64.8 167.7-108.8 55.601-53.7 93.7-114.3 114.3-181.9 20.601-67.6 30.9-159.8 30.9-276.8v-239c0-27.599-22.401-50-50-50zM106.036 913.497c65.4-28.5 121-64.699 166.9-108.6 56.1-53.7 94.4-114.1 115-181.2 20.6-67.1 30.899-159.6 30.899-277.5v-239c0-27.6-22.399-50-50-50h-304c-27.6 0-50 22.4-50 50v304c0 27.601 22.4 50 50 50h145.5c-1.9 79.601-20.4 143.3-55.4 191.2-27.6 37.8-69.4 69.1-125.3 93.8-25.7 11.3-36.8 41.7-24.8 67.101l35.9 75.8c11.601 24.399 40.501 35.2 65.301 24.399z"
+            ></path>
+          </svg>
+          <p class="leading-relaxed text-lg">
+            Welcome to my website! I'm an electrical engineer with a passion for
+            technology and software development. Currently, I am undergoing an
+            exciting career transition into the field of IT. With over six years
+            of experience as an automation engineer, I have developed extensive
+            expertise in industrial programming. Throughout my career, I have
+            worked extensively with programming languages like Ladder and
+            Structured Text, specifically in the context of PLC (Programmable
+            Logic Controller) programming. This experience has provided me with
+            a deep understanding of automation systems and the ability to design
+            efficient and reliable solutions.
+            <br />
+            <br />
+            Recognizing the rapid growth and impact of the IT industry, I am
+            eager to expand my skill set further. To achieve this, I am
+            currently enrolled in CS50X Introduction to Computer Science at
+            Harvard University. This comprehensive course covers a wide range of
+            programming languages and technologies, including C, Python, HTML,
+            CSS, JavaScript, Flask, and SQL stacks. In addition to these
+            foundational technologies, I am also actively studying modern web
+            frameworks such as React, Svelte, Django, and utilizing styling
+            libraries like Tailwind CSS.
+            <br />
+            <br />
+            By combining my background in electrical engineering, my proficiency
+            in English, and my ongoing pursuit of IT expertise, I am
+            well-equipped to contribute to the rapidly evolving technological
+            landscape. I am enthusiastic about leveraging my skills to tackle
+            complex challenges and develop innovative solutions. I invite you to
+            explore my website further to learn more about my professional
+            journey and the exciting projects I have undertaken. If you have any
+            questions or comments, please don't hesitate to reach out. Thank you
+            for visiting!
+          </p>
+          <span
+            class="inline-block h-1 w-10 rounded bg-green-800 mt-8 mb-6"
+          ></span>
+          <h2
+            class="text-gray-900 font-medium title-font tracking-wider text-sm"
+          >
+            MARCO MIANI
+          </h2>
+          <p class="text-gray-500">Software Engineer</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 body-font">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-col text-center w-full mb-20">
+          <h1
+            id="skills"
+            class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+          >
+            Skills
+          </h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+            I possess a diverse range of technical skills, encompassing both
+            Front-end and Back-end development, as well as a set of valuable
+            General skills. Allow me to share with you my expertise in these
+            areas.
+          </p>
+        </div>
+        <!-- Font-end -->
+        <div class="flex flex-wrap -m-4">
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/html-css-js.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FRONT-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  HTML - CSS - JavaScript
+                </h1>
+                <p class="leading-relaxed">
+                  The foundational trio of web development, combining structure,
+                  style, and interactivity to create engaging and visual
+                  websites.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/react.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FRONT-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  React.js
+                </h1>
+                <p class="leading-relaxed">
+                  A JS library for building interactive UI's with reusable
+                  components, making web development efficient and scalable.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/svelte.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FRONT-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Svelte
+                </h1>
+                <p class="leading-relaxed">
+                  A lightweight JS framework for building fast web applications,
+                  with an approach to component-based development.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Back-end -->
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/python.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  BACK-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Python
+                </h1>
+                <p class="leading-relaxed">
+                  A versatile and user-friendly programming language known for
+                  its simplicity and readability.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/django.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  BACK-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Django
+                </h1>
+                <p class="leading-relaxed">
+                  A Python web framework that simplifies web development, with
+                  robust features for building secure and scalable applications.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/node.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  BACK-END
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Node.js - Express
+                </h1>
+                <p class="leading-relaxed">
+                  A dynamic duo for JS development. Node.js empowers server
+                  applications, while Express provides web APIs and backends.
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- General -->
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/git.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FULLSTACK
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  Git
+                </h1>
+                <p class="leading-relaxed">
+                  A distributed version control system that enable effective
+                  team collaboration and code versioning.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/sql.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FULLSTACK
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  SQL
+                </h1>
+                <p class="leading-relaxed">
+                  A powerful language for managing relational DBs, providing a
+                  standardized way to store, retrieve, and modify data.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="lg:w-1/3 sm:w-1/2 p-4">
+            <div class="flex relative">
+              <img
+                alt="gallery"
+                class="absolute inset-0 w-full h-full object-cover object-center"
+                src="./images/stacks/typescript.png"
+              />
+              <div
+                class="px-8 py-10 relative z-10 w-full border-4 border-gray-200 bg-white opacity-0 hover:opacity-100"
+              >
+                <h2
+                  class="tracking-widest text-sm title-font font-medium text-green-800 mb-1"
+                >
+                  FULLSTACK
+                </h2>
+                <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                  TypeScript
+                </h1>
+                <p class="leading-relaxed">
+                  A strongly-typed superset of JS, adding static typing and
+                  enhanced tooling to enable reliable and maintainable code.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+
+    <section id="projects" class="text-gray-600 body-font">
+      <div class="flex flex-col text-center w-full mb-20 pt-24">
+        <h1
+          id="skills"
+          class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900"
+        >
+          Projects
+        </h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base">
+          Welcome to my Projects section! Here, you'll find a showcase of my
+          diverse range of front-end, back-end, and full-stack projects. Each
+          project represents my passion for crafting innovative and functional
+          solutions, blending creativity with technical expertise. Explore the
+          synergy between design and functionality as I demonstrate my skills
+          across various domains of web development.
+        </p>
+      </div>
+
+      <!-- Project 1 -->
+      <div
+        class="container mx-auto flex px-5 pt-2 pb-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="./images/projects/car-rent.png"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Car Rental Website
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+            natus, ratione quidem modi soluta eligendi, recusandae sunt unde ad
+            ipsam ex blanditiis rem pariatur consequuntur voluptas autem nulla
+            accusantium neque.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              <a href="#"
+                >See Live
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 pl-6 pr-3 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            >
+              <a href="#"
+                >Github<i class="fa-brands fa-github w-10 text-xl"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 2 -->
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 pt-2 pb-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Maintenance Dashboard
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
+            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
+            hexagon try-hard chambray.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              <a href="#"
+                >See Live
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 pl-6 pr-3 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            >
+              <a href="#"
+                >Github<i class="fa-brands fa-github w-10 text-xl"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://dummyimage.com/720x600"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 3 -->
+    <section id="projects" class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 pt-2 pb-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://dummyimage.com/720x600"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Miani's Band Website
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
+            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
+            hexagon try-hard chambray.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              <a href="#"
+                >See Live
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 pl-6 pr-3 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            >
+              <a href="#"
+                >Github<i class="fa-brands fa-github w-10 text-xl"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 4 -->
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 pt-2 pb-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Card Game Marketplace
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
+            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
+            hexagon try-hard chambray.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              <a href="#"
+                >See Live
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 pl-6 pr-3 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            >
+              <a href="#"
+                >Github<i class="fa-brands fa-github w-10 text-xl"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://dummyimage.com/720x600"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Project 5 -->
+    <section id="projects" class="text-gray-600 body-font">
+      <div
+        class="container mx-auto flex px-5 pt-2 pb-24 md:flex-row flex-col items-center"
+      >
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="https://dummyimage.com/720x600"
+          />
+        </div>
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900"
+          >
+            Barber Shop Website
+          </h1>
+          <p class="mb-8 leading-relaxed">
+            Copper mug try-hard pitchfork pour-over freegan heirloom neutra air
+            plant cold-pressed tacos poke beard tote bag. Heirloom echo park
+            mlkshk tote bag selvage hot chicken authentic tumeric truffaut
+            hexagon try-hard chambray.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-green-800 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+            >
+              <a href="#"
+                >See Live
+                <i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i
+              ></a>
+            </button>
+            <button
+              class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 pl-6 pr-3 focus:outline-none hover:bg-gray-200 rounded text-lg"
+            >
+              <a href="#"
+                >Github<i class="fa-brands fa-github w-10 text-xl pr-0"></i
+              ></a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact -->
+    <footer id="contact" class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a href="#home"
+            class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0"
+          >
+            <span class="ml-3 text-3xl font-extrabold"
+              >MARCO<span class="text-green-800"> MIANI</span></span
+            >
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2023 Marco Miani - Software Engineer</p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+              <a href="####" class="text-gray-500">
+                <i class="fa-brands fa-github text-4xl hover:text-green-600"></i>
+              </a>
+            <a href="####" class="ml-8 text-gray-500">
+                <i class="fa-brands fa-linkedin text-4xl hover:text-green-600"></i>
+            </a>
+            <a href="####" class="ml-8 text-gray-500">
+                <i class="fa-brands fa-facebook text-4xl hover:text-green-600"></i>
+            </a>
+          </span>
+        </div>
+      </footer>
+
+
+
+  </body>
+</html>
